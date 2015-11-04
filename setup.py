@@ -12,8 +12,8 @@ def read(fname):
     except IOError:
         return ''
 
-import couchdblogger
-VERSION = couchdblogger.__version__
+import info
+VERSION = info.__version__
 
 setup(
     name="couchdblogger",
